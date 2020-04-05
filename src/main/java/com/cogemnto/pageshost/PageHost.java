@@ -21,8 +21,9 @@ public class PageHost {
 	public PageHost(WebDriver dr) {
 
 		cases = new Cases(dr);
-		calls = new Calls(dr);
-		documents = new Documents(dr);
+		/*
+		 * calls = new Calls(dr); documents = new Documents(dr);
+		 */
 		campaigns = new Campaigns(dr);
 		forms = new Forms(dr);
 
